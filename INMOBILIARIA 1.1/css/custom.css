@@ -1,0 +1,577 @@
+#logo {
+    margin-top: 0;
+    background: auto;
+	padding:0 0;
+    float: left;
+    position: absolute;
+    text-align:center;
+}
+
+#logo img {
+    max-width: 250px!important;
+}
+
+nav{    
+	width: 65%;
+    float: right;
+    margin-top: 5em;
+    font-weight: 400;
+}
+
+.content-buscador {
+    position: absolute;
+    margin-top: 8em;
+    float: right;
+    width: 85%;
+    margin-left: 125px;
+	z-index: 999!important;
+}
+
+.buscador {
+    float: right!important;
+    width: 50%;
+	background: rgba(0,0,0, 0.7)!important;
+	margin: 0!important;
+	padding: 10px 15px!important;
+
+
+}
+
+#titulo_buscador {
+	float: none!important;
+    width: auto!important;
+	min-height: 50px;
+    padding: 5px 10px;
+}
+
+
+.buscador-transaccion {
+    margin: 0px!important;
+    border-bottom: none!important;
+    color: #fff!important;
+    font-size: 20px!important;
+}
+
+#texto_buscador {
+    width: 50%!important;
+}
+
+.campos_buscador {
+    width: 96%!important;
+    color: #000!important;
+    margin-left: 5px!important;
+    background: #d7d8da!important;
+    border: none!important;
+    padding: 5px!important;
+    margin-top: 20px!important;
+}
+
+.boton_buscador, .boton_buscador a:link {
+    background: #5e3c90!important;
+	margin: 15px 5px 0!important;
+	margin: 20px 5px !important;
+    color: #fff!important;
+}
+
+
+.destacados-valor{
+	font-size: 30px;
+    line-height: 40px;
+	color:#5e3c90!important;
+}
+
+.destacados-valor a{
+	color: #5e3c90!important;
+}
+
+.destacados-valor a:hover{
+	color:#7a54dc !important;
+}
+
+.btn-precios-destacados {
+    color: #fff;
+    float: right;
+    text-align: center;
+    height: 25px;
+    font-size: 15px;
+    width: 25px;
+    background: orange;
+    padding: 3px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+#tasar{
+	float:right;
+	width:100%;
+	position:relative;
+    background: url(../images/slider2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*.mapa-contacto {
+	width: 95%!important;
+}*/
+
+.datos-tasaciones{
+	float: left;
+    padding: 0 10px;
+}
+
+.datos-tasaciones p{
+    padding: 0!important;
+}
+
+#tasaciones {
+    text-align: center;
+    width: 35%;
+    padding: 3% 15px;
+	margin: 0 auto;
+}
+
+#footer{
+	float:left;
+	width:100%;
+	text-align:center;
+	background: #eee;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.footer-logos, .breadcumb-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+	
+}
+
+#breadcumb{
+	float:left;
+	width:100%;
+	text-align:center;
+	z-index: 1;
+    background-image: url(../images/slider2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+	height:200px;
+
+}
+
+.filter {
+    background-color: rgba(0,0,0,.5);
+	width:100%;
+	height:100%;
+}
+
+.breadcumb-content h1{
+	font-size:30px;
+	font-weight:700;
+	color:#FFFFFF;
+	line-height: 5em;
+}
+
+.contenedor-secciones-buscador{
+	margin-left: 2em!important;
+}
+
+.titulos_noticias {
+	font-family:'Lato',sans-serif;!important;
+	font-style:normal!important;
+}
+
+
+.buscador-interno {
+    margin-left: 0px!important;
+    margin-bottom: 0px!important;
+    width: 250px!important;
+    margin-top: -10em!important;
+	position:relative!important;
+}
+
+.imagen-destacados-interior {
+    height: 300px!important;
+}
+
+#descripcion_detalles {
+	float:right !important;
+	width:98% !important;
+	text-align:justify !important;
+}
+
+
+.head_detalles {
+    float: left;
+    width: 100%;
+	font-family:'Lato',sans-serif;
+	margin: 1em 0;
+}
+
+.codigo-propiedad {
+    float: left;
+    width: 45%;
+}
+.direccion{
+    font-size: 26px;
+    display: block;
+    font-weight: 700;
+    margin-top: 2px;
+}
+.barrio{
+	text-transform: uppercase;
+    font-weight: 700;
+}
+.precio {
+    font-size: 30px;
+    margin: 15px 0;
+    float: left;
+    font-weight: 700;
+
+}
+.tipo{
+  font-size:20px;
+  font-weight: 700;
+  text-align: left;
+  float: right;
+  padding: 0 15px;
+  line-height: 35px;
+	
+}
+.head_detalles .datos-ficha-derecha {
+    list-style: none;
+    padding: 0;
+    float: right;
+     text-align: center;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin: 0px 2px;
+    /* display: block; */
+    border-left: 1px solid;
+	
+}
+.bloque_detalle_derecha .fondo-btn-transaccion {
+    float: left;
+    width: 90%;
+}
+
+.fondo-btn-transaccion {
+    position: relative;
+    display: block;
+    width: auto;
+    max-width: 45%;
+    padding: 0 0 0 15px;
+    background: #FF7800;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    line-height: 38px;
+	font-size: 15px;
+    text-transform: uppercase
+}
+
+.fondo-btn-transaccion img {
+    height: 38px;
+    width: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+.redes-sociales{
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+	margin-top:10px
+}
+.titulos-modulos-detalles{
+	background:transparent!important;
+	color:#000000!important;
+	font-size:25px!important;
+	padding:0!important;
+	font-weight:700!important;
+}
+
+.mapa{ width:100%!important;}
+.similares{ width:100%!important;}
+
+.titulos_detalles{
+	background:transparent!important;
+	font-size:25px!important;
+	font-weight:700!important;
+	color:#000!important;
+	padding: 3px 0px!important;
+	margin-bottom: 0px!important;
+}
+.inmuebles_similares_titulo {
+	background:#5e3c90!important;
+	color:#fff!important;
+	font-weight: 100!important;
+	padding: 5px!important;
+}
+
+.resultados{
+	font-family:'Lato',sans-serif;
+	font-size:14px;
+	margin:0 auto;
+	text-align:center;
+	float:left;
+
+}
+#general_listado{
+	background: #eee!important;
+	border:none!important;
+	margin:0 5px 5px!important;
+	float:left!important;
+	height: 26em;
+	width: 47.5%!important;
+}
+
+#general_listado .imagen {
+	margin:0 auto!important;
+	float: none!important;
+}
+
+#general_listado .titulo{
+	background:transparent!important;
+	box-shadow:none!important;
+	width:100%!important;
+	border-left:none!important;
+	padding:15px 0!important;
+	height: 45px;
+}
+
+.linea1 {
+	color:#FF7800!important;
+	width:35%!important;
+}
+
+.linea2 {
+    color: #000!important;
+    font-size: 20px!important;
+}
+
+.boton_resultados{
+	background:#5e3c90!important;
+	padding:10px!important;
+}
+
+.boton_resultados a:hover{
+	background:#5e3c90!important;
+}
+
+#general_listado .detalle {
+    float: right;
+    padding-left: 15px;
+    width: 95%!important;
+}
+
+
+
+
+@media(max-width:768px){
+#logo {
+   width: 60%!important;
+    margin: 0 auto!important;
+    float: none!important;
+    position: relative!important;
+	height: 15%;
+}
+
+#logo img {
+    max-width: 100%!important;
+	
+}
+
+
+header nav ul li{
+	padding:10px 5px!important;
+}
+
+header nav ul li a, header nav_home ul li a {
+	border-right: none!important;
+}
+
+#slogan {
+    float: none!important;
+    width: auto!important;
+	padding-right: 0em!important;
+}
+
+#slogan h2 {
+    text-align: center!important;;
+}
+
+header nav ul {background: #5e3c90!important;}
+
+#texto_buscador {
+    width: 100%!important;
+	margin-bottom:0px !important;
+}
+
+.content-buscador {
+    position: absolute;
+    margin-top: 0!important;
+    float: right;
+    width: 75%!important;
+    margin-left: 3em;
+    z-index: 1!important;
+	padding:10px!important;
+}
+
+
+.boton-buscador {
+    width: 100%!important;
+}
+
+.boton_buscador, boton_buscador a:hover, boton_buscador a:link {
+    width: 90%!important;
+}
+#slider {
+    height: 570px!important;
+}
+.theme-default .nivoSlider{
+background:url(../images/slider1.jpg)!important;
+}
+
+.theme-light .nivoSlider{
+background:#fff !important;
+}
+
+.theme-light .nivoSlider img{
+    position: absolute;
+ /*   top: -50px!important; */
+}
+
+.nivo-directionNav a {top: 30% !important;}
+
+
+.descripcion-destacados {
+    width: 90%!important;
+    margin: 15px 5%!important;
+}
+
+#breadcumb{
+	height:100px;
+}
+.breadcumb-content h1{
+	    line-height: 1em;
+}
+
+.buscador-interno {
+    margin-top: 0em!important;
+    margin-left: 0px!important;
+    width: 100%!important;
+}
+
+.descripcion-destacados-interior {
+    margin: 15px 5%;
+    width: 90%;
+}
+
+#descripcion_detalles {
+	width:95% !important;
+}
+
+.codigo-propiedad {
+    float: left;
+    width: 95%;
+    margin-bottom: 25px;
+}
+
+.head_detalles ul {
+    list-style: none;
+    padding: 0;
+    width: 95%;
+    float: left;
+}
+
+.head_detalles ul li{
+    width: 35%;
+    float: left;
+}
+.redes-sociales{
+	width:45%!important;
+}
+
+
+.contenedor-secciones-buscador{ width:90%!important; margin-left:1em !important}
+
+#contacto{
+	padding-right: 0px!important;
+}
+
+#contacto, .datos{
+	width: 98%!important;
+}
+
+.resultados{
+padding:10px;
+}
+
+#general_listado {
+    width: 98%!important;
+	margin-top: 10px!important;
+	height: auto;
+}
+
+}
+
+
+@media (max-width: 768px) and (orientation: landscape) {
+.content-buscador {
+    position: absolute;
+    float:none;
+    width: 65%!important;
+    margin: auto 7em!important;
+}
+
+#logo {
+    margin-top: 0;
+    background: transparent;
+	padding:0;
+    float: left;
+    position: absolute;
+}
+
+
+.menu_bar {
+    display: flex;
+    float: right;
+}
+
+.columna50 {
+    float: left;
+    width: 95%!important;
+}
+
+#formulario-contacto .sector {
+    width: 95%!important;
+	}
+	
+.logo-footer {
+    width: 100%!important;
+    margin: 2% auto!important;
+}	
+}
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:50px;
+  right:30px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
